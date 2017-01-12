@@ -21,6 +21,7 @@
           ],
           'link_settings': {
             'libraries': [
+              "-Wl,-rpath,<(qt_dir)/lib",
               '<(qt_dir)/lib/QtCore.framework',
               '<(qt_dir)/lib/QtGui.framework',
               '<(qt_dir)/lib/QtQml.framework',
