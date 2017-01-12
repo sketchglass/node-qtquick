@@ -1,0 +1,4 @@
+qtquick.creator
+qtquick.files
+qtquick.includes
+src/qtquick.cc
