@@ -91,5 +91,6 @@ jspm_packages
 # Yarn Integrity file
 .yarn-integrity
 
-
 # End of https://www.gitignore.io/api/qt,node
+
+/build
