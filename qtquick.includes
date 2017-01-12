@@ -1,3 +1,7 @@
+# TODO: generate platform-independent include paths
 /usr/local/include/node
 node_modules/nan
+~/Qt/5.8/clang_64/lib/QtCore.framework/Headers
+~/Qt/5.8/clang_64/lib/QtGui.framework/Headers
+~/Qt/5.8/clang_64/lib/QtQml.framework/Headers
 .
