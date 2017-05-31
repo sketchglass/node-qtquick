@@ -4,6 +4,7 @@
 
 - Create Qt Quick app with Node.js, without writing C++
 - Access C++ code from JavaScript easily through Qt plugin
+- Create lightweight and closer-to-metal desktop app in JavaScript easily
 
 ## Prerequisites
 
@@ -34,3 +35,4 @@ npm test
 - [ ] Load Qt object through QPluginLoader
 - [ ] Invoke method/setter/getter from Node.js through meta object
 - [ ] Provide API for creating Qt Quick app from Node.js
+- [ ] Create React custom renderer (maybe React Fiber is helpful)
