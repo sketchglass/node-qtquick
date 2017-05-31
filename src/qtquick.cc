@@ -1,9 +1,9 @@
 #include <nan.h>
-#include <QDebug>
+#include <QString>
 
 void Method(const Nan::FunctionCallbackInfo<v8::Value>& info) {
-    qDebug() << "method called";
-    info.GetReturnValue().Set(Nan::New("world").ToLocalChecked());
+    QString string = "world";
+    info.GetReturnValue().Set(Nan::New(string.toUtf8().data()).ToLocalChecked());
 }
 
 void Init(v8::Local<v8::Object> exports) {
