@@ -1,5 +1,10 @@
 # node-qtquick
 
+[WIP] Use Qt Quick from Node.js
+
+- Create Qt Quick app with Node.js, without writing C++
+- Access C++ code from JavaScript easily through Qt plugin
+
 ## Prerequisites
 
 * Qt
@@ -23,3 +28,9 @@ node-gyp rebuild --qt_dir=/path/to/qt
 ```
 npm test
 ```
+
+## TODO
+
+- [ ] Load Qt object through QPluginLoader
+- [ ] Invoke method/setter/getter from Node.js through meta object
+- [ ] Provide API for creating Qt Quick app from Node.js
